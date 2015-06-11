@@ -1,6 +1,8 @@
 # SketchingAI
 Sketching AI, based on a convolutional neural network and genetic algorithm
 
+Quick explanation: Drawings are generated and the neural network looks at them and chooses the ones that are most like the object it was asked for. The genetic algorithm takes care of combining the best ones and within a few generations (a couple hundreds), it produces (sometimes) recognizable sketches. 
+
 Not really intended for distribution yet, but it works if you install a few things (all free and working under Linux):
 
 1. Install Anaconda https://store.continuum.io/cshop/anaconda/
